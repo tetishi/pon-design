@@ -28,8 +28,6 @@ ul {
     font-size: 3.6rem;
     font-weight: bold;
     color: $main-color;
-    letter-spacing: .02em;
-    line-height: .888;
 }
 
 .c-btn {
@@ -86,9 +84,7 @@ ul {
     background-position: center;
     color: #fff;
     text-align: center;
-    height: calc(100vh - 86px);
-    // height: 100vh;
-    // height: 100dvh;
+    height: calc(100vh);
 }
 .p-hero__title {
     font-size: 7.2rem;
@@ -113,53 +109,13 @@ ul {
     }
 }
 
-@keyframes scrollDownLine {
-    0% {
-        -webkit-transform: scale(1, 0);
-        transform: scale(1, 0);
-        -webkit-transform-origin: 0 0;
-        transform-origin: 0 0;
-    }
-    50% {
-        -webkit-transform: scale(1, 1);
-        transform: scale(1, 1);
-        -webkit-transform-origin: 0 0;
-        transform-origin: 0 0;
-    }
-    50.1% {
-        -webkit-transform: scale(1, 1);
-        transform: scale(1, 1);
-        -webkit-transform-origin: 0 100%;
-        transform-origin: 0 100%;
-    }
-    100% {
-        -webkit-transform: scale(1, 0);
-        transform: scale(1, 0);
-        -webkit-transform-origin: 0 100%;
-        transform-origin: 0 100%;
-    }
-}
-
-
 .p-hero__scroll {
     // position: absolute;
     // right: 20px;
     // bottom: 0;
-    padding: 10px 10px 90px;
     text-transform: uppercase;
     overflow: hidden;
     writing-mode: vertical-lr;
     font-size: 1.2rem;
     font-weight: bold;
-    &::after {
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        width: 1px;
-        height: 80px;
-        background-color: #fff;
-        content: "";
-        animation: scrollDownLine 1.5s infinite;
-    }
-
 }

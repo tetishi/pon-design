@@ -1,0 +1,44 @@
+$main-color: #391E88;
+
+//base
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.5rem;
+    font-family: 'Hiragino Sans', sans-serif;
+    color: #333;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.c-heading-primary {
+    font-size: 3.6rem;
+    font-weight: bold;
+    color: $main-color;
+}
+
+
+//header
+.l-header {
+    height: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.p-global-nav__list {
+    display: flex;
+    .p-global-nav__item {
+        margin-right: 25px;
+        &:las
+    }
+}

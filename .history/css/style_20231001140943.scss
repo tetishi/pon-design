@@ -1,0 +1,89 @@
+$main-color: #391E88;
+
+//base
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.5rem;
+    font-family: 'Hiragino Sans', sans-serif;
+    color: #333;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.c-heading-primary {
+    font-size: 3.6rem;
+    font-weight: bold;
+    color: $main-color;
+}
+
+.u-sp-only {
+    display: none;
+}
+
+
+//header
+.l-header {
+    height: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    background-color: #21054D;
+    .c-btn-menu {
+        display: none;
+    }
+}
+
+.logo {
+    line-height: 0;
+}
+
+.p-global-nav__list {
+    display: flex;
+    .p-global-nav__item {
+        margin-right: 25px;
+        font-weight: bold;
+        font-size: 1.4rem;
+        color: #fff;
+        &:last-of-type {
+            margin-right: 0;
+        }
+    }
+}
+
+//hero
+.p-hero {
+    background-image: url(../img/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.p-hero__title {
+    font-size: 7.2rem;
+    font-weight: bold;
+    line-height: 1.25;
+    letter-spacing: .05em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.p-hero__subtitle {
+    font-size: 2.4rem;
+    font-weight: 600;
+    lett
+}
+
