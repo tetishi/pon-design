@@ -29,14 +29,11 @@ ul {
     font-weight: bold;
     color: $main-color;
     letter-spacing: .02em;
-    line-height: 1;
+    line-height: .888;
     .c-heading-primary__sub {
         display: block;
         margin-top: 5px;
         font-weight: 600;
-        font-size: 1.3rem;
-        letter-spacing: .05em;
-
     }
 }
 
@@ -97,9 +94,6 @@ ul {
     height: calc(100vh - 86px);
     // height: 100vh;
     // height: 100dvh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .p-hero__title {
     font-size: 7.2rem;
@@ -153,9 +147,9 @@ ul {
 
 
 .p-hero__scroll {
-    position: absolute;
-    right: 20px;
-    bottom: 0;
+    // position: absolute;
+    // right: 20px;
+    // bottom: 0;
     padding: 10px 10px 90px;
     text-transform: uppercase;
     overflow: hidden;

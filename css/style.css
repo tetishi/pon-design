@@ -26,7 +26,15 @@ ul {
   font-weight: bold;
   color: #391E88;
   letter-spacing: .02em;
-  line-height: .888;
+  line-height: 1;
+}
+
+.c-heading-primary .c-heading-primary__sub {
+  display: block;
+  margin-top: 5px;
+  font-weight: 600;
+  font-size: 1.3rem;
+  letter-spacing: .05em;
 }
 
 .c-btn {
@@ -84,6 +92,9 @@ ul {
   color: #fff;
   text-align: center;
   height: calc(100vh - 86px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .p-hero__title {
@@ -137,6 +148,9 @@ ul {
 }
 
 .p-hero__scroll {
+  position: absolute;
+  right: 20px;
+  bottom: 0;
   padding: 10px 10px 90px;
   text-transform: uppercase;
   overflow: hidden;
