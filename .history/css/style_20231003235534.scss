@@ -233,24 +233,13 @@ ul {
 //service
 .p-service {
     max-width: 1110px;
-    margin: 0 auto;
+    margin: ;
 
     .p-service__heading {
         text-align: center;
-        margin-bottom: 30px;
     }
 }
 
 .c-card-wrapper--col3 {
     display: flex;
-}
-
-.c-card__title {
-    text-align: center;
-    font-size: 1.8rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    letter-spacing: .05em;
-    line-height: 1;
-    margin: 22px 0 16px;
 }
