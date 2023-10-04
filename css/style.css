@@ -47,6 +47,9 @@ ul {
   letter-spacing: .05em;
   line-height: 1;
   text-transform: uppercase;
+  background: linear-gradient(to right, #7633A4, #250D65);
+  color: #fff;
+  font-size: 1.4rem;
 }
 
 .u-sp-only {
@@ -118,6 +121,8 @@ ul {
 
 .p-hero__link .c-btn {
   border: 1px solid #fff;
+  font-size: 1.5rem;
+  background: none;
 }
 
 @keyframes scrollDownLine {
@@ -237,6 +242,14 @@ ul {
   display: flex;
 }
 
+.c-card {
+  margin-right: 30px;
+}
+
+.c-card:last-of-type {
+  margin-right: 0;
+}
+
 .c-card__title {
   text-align: center;
   font-size: 1.8rem;
@@ -245,4 +258,16 @@ ul {
   letter-spacing: .05em;
   line-height: 1;
   margin: 22px 0 16px;
+}
+
+.c-card__text {
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: .05em;
+  line-height: 1.8;
+}
+
+.p-service__link {
+  text-align: center;
+  margin-top: 30px;
 }
