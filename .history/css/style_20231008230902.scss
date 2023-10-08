@@ -334,18 +334,8 @@ ul {
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 1300px;
-    margin: 40px auto 70px;
+    margin: 40px auto 0;
     text-align: center;
-    height: 615px;
-    position: relative;
-    .p-company__inner {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translateY(-50%) translateX(-50%);
-        // -webkit- transform: translateY(-50%) translateX(-50%);
-        width: 100%;
-    }
 }
 
 .p-company__body {

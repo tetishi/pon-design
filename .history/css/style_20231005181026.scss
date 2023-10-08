@@ -329,48 +329,5 @@ ul {
 
 //company
 .p-company {
-    background-image: url(../img/bg-company.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    max-width: 1300px;
-    margin: 40px auto 70px;
-    text-align: center;
-    height: 615px;
-    position: relative;
-    .p-company__inner {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translateY(-50%) translateX(-50%);
-        // -webkit- transform: translateY(-50%) translateX(-50%);
-        width: 100%;
-    }
-}
-
-.p-company__body {
-    margin-top: 40px;
-}
-
-.p-message__heading {
-    font-size: 4rem;
-    font-weight: 600;
-    letter-spacing: .05em;
-    line-height: .8;
-    margin-bottom: 46px;
-
-    .p-message__underline {
-        // background-color: #F5F534;
-        background: linear-gradient(transparent 70%, #F5F534 70%);
-        // height: 12px;
-        // width: 100%;
-        padding-bottom: 6px;
-    }
-}
-
-.p-message__text {
-    letter-spacing: .05em;
-    line-height: 1.8;
-    font-weight: 300;
-    margin-bottom: 30px;
+    background-image: url(../);
 }
