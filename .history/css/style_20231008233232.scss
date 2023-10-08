@@ -380,39 +380,8 @@ ul {
 .p-recruit {
     max-width: 1110px;
     margin: 0 auto;
-    margin-bottom: 110px;
 }
 
 .p-recruit__inner {
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.p-recruit__desc {
-    background-color: #F7F7F7;
-    text-align: center;
-    height: 332px;
-    width: 40%;
-    position: relative;
-
-    .p-recruit__desc-inner {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translateY(-50%) translateX(-50%);
-        // -webkit- transform: translateY(-50%) translateX(-50%);
-        width: 100%;
-    }
-}
-
-.p-recruit__heading {
-    margin-bottom: 30px;
-}
-
-.p-recruit__text {
-    letter-spacing: .05em;
-    line-height: 1.866;
-    font-weight: 300;
-    margin-bottom: 30px;
 }

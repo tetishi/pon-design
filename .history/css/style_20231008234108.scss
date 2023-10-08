@@ -379,8 +379,7 @@ ul {
 //recruit
 .p-recruit {
     max-width: 1110px;
-    margin: 0 auto;
-    margin-bottom: 110px;
+    // margin: 0 auto;
 }
 
 .p-recruit__inner {
@@ -403,6 +402,7 @@ ul {
         transform: translateY(-50%) translateX(-50%);
         // -webkit- transform: translateY(-50%) translateX(-50%);
         width: 100%;
+
     }
 }
 
