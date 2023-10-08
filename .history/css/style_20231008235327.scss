@@ -441,8 +441,6 @@ ul {
 .l-footer {
     background-color: #120E19;
     max-width: 100%;
-    font-family: 'Montserrat', sans-serif;
-    padding: 60px 0;
 }
 
 .l-footer-nav__list {
@@ -457,16 +455,5 @@ ul {
     font-weight: bold;
     letter-spacing: 0;
     color: #fff;
-    margin-right: 20px;
-    &:last-of-type {
-        margin-right: 0;
-    }
-}
-
-.c-copyright {
-    text-align: center;
-    font-size: 1rem;
-    letter-spacing: .05em;
-    line-height: 1.2;
-    margin-top: 22px;
+    
 }
