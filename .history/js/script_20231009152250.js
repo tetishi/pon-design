@@ -1,26 +1,24 @@
 //header
-// function FixedAnime() {
-//     var headerH = $('.l-header').outerHeight(true);
-//     var scroll = $(window).scrollTop();
-//     if (scroll >= headerH) {
-//         $('.l-header').addClass('is-active');
-//     } else {
-//         $('.l-header').removeClass('is-active');
-//     }
-// }
+function FixedAnime() {
+    var headerH = $('.l-header').outerHeight(true);
+    var scroll = $(window).scrollTop();
+    if (scroll >= headerH) {
+        $('.l-header').addClass('is-active');
+    } else {
+        $('.l-header').removeClass('is-active');
+    }
+}
 
-// $(window).scroll(function () {
-//     FixedAnime();
-// })
+$(window).scroll(function () {
+    FixedAnime();
+})
 
 //スクロールしたらヘッダーの背景色が変化
 $(window).scroll(function() {
     if($(this).scrollTop() > 0) {
-        $(".l-header").addClass("is-active");
-    } else {
-        $(".l-header").removeClass("is-active");
+        $
     }
-});
+})
 
 //swiper
 const swiper = new Swiper(".js-swiper-container", {

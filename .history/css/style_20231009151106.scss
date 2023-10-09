@@ -62,26 +62,20 @@ ul {
 
 //header
 .l-header {
-    position: fixed;
-    z-index: 999;
-    top: 0;
-    left: 0;
     height: 86px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 30px;
     width: 100%;
-    transition: all .3s;
     .c-btn-menu {
         display: none;
     }
-}
-.is-active {
-    background-color: #21054D;
-    height: 64px;
-}
 
+    .is-active {
+        background-color: #21054D;
+    }
+}
 
 .logo {
     line-height: 0;
@@ -94,28 +88,9 @@ ul {
         font-weight: bold;
         font-size: 1.4rem;
         color: #fff;
-        letter-spacing: .05em;
-        font-family: 'Montserrat', sans-serif;
         &:last-of-type {
             margin-right: 0;
         }
-    }
-}
-
-.p-global-nav__link {
-    position: relative;
-    &::after {
-        content: '';
-        position: absolute;
-        bottom: -2.5px;
-        left: 0;
-        width: 0;
-        height: 1px;
-        background-color: #fff;
-        transition: .3s;
-    }
-    &:hover::after {
-        width: 100%;
     }
 }
 

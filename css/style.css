@@ -57,16 +57,26 @@ ul {
 }
 
 .l-header {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
   height: 86px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 30px;
-  background-color: #21054D;
+  width: 100%;
+  transition: all .3s;
 }
 
 .l-header .c-btn-menu {
   display: none;
+}
+
+.is-active {
+  background-color: #21054D;
+  height: 64px;
 }
 
 .logo {
@@ -82,10 +92,31 @@ ul {
   font-weight: bold;
   font-size: 1.4rem;
   color: #fff;
+  letter-spacing: .05em;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .p-global-nav__list .p-global-nav__item:last-of-type {
   margin-right: 0;
+}
+
+.p-global-nav__link {
+  position: relative;
+}
+
+.p-global-nav__link::after {
+  content: '';
+  position: absolute;
+  bottom: -2.5px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: #fff;
+  transition: .3s;
+}
+
+.p-global-nav__link:hover::after {
+  width: 100%;
 }
 
 .p-hero {

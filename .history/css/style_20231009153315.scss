@@ -94,8 +94,6 @@ ul {
         font-weight: bold;
         font-size: 1.4rem;
         color: #fff;
-        letter-spacing: .05em;
-        font-family: 'Montserrat', sans-serif;
         &:last-of-type {
             margin-right: 0;
         }
@@ -105,17 +103,7 @@ ul {
 .p-global-nav__link {
     position: relative;
     &::after {
-        content: '';
-        position: absolute;
-        bottom: -2.5px;
-        left: 0;
-        width: 0;
-        height: 1px;
-        background-color: #fff;
-        transition: .3s;
-    }
-    &:hover::after {
-        width: 100%;
+        
     }
 }
 
