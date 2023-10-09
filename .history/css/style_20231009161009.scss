@@ -264,7 +264,7 @@ ul {
 }
 
 .p-news-list__link:hover {
-    text-decoration: underline;
+    text-decoration: ;
 }
 
 //service
@@ -315,12 +315,11 @@ ul {
 //works
 .p-works {
     max-width: 1261px;
-    margin: 140px auto 0;
+    margin: 0 auto;
     .p-works__inner {
         position: relative;
         display: flex;
         align-items: center;
-        padding: 60px 0px 81px;
         &::after {
             content: "";
             position: absolute;
