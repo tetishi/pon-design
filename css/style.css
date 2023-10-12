@@ -27,6 +27,8 @@ ul {
   color: #391E88;
   letter-spacing: .02em;
   line-height: 1.2;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
 }
 
 .c-heading-primary .c-heading-primary__sub {
@@ -35,6 +37,16 @@ ul {
   font-weight: 600;
   font-size: 1.3rem;
   letter-spacing: .05em;
+  font-family: 'Hiragino Sans', sans-serif;
+}
+
+.p-hero .c-heading-primary .c-heading-primary__sub {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+}
+
+.c-heading-primary--white {
+  color: #fff;
 }
 
 .c-btn {
@@ -345,12 +357,22 @@ ul {
 }
 
 .p-works__img-wrapper {
-  width: 60%;
+  width: 66%;
   margin-right: 20px;
 }
 
-.swiper-slide {
-  width: 100%;
+.swiper-container {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 30px;
+}
+
+.swiper-pagination-bullets {
+  text-align: right;
+}
+
+.swiper-pagination-bullet {
+  background-color: #391E88;
 }
 
 .p-company {

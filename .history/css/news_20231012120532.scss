@@ -1,0 +1,23 @@
+//hero
+.p-hero {
+    height: 240px;
+}
+
+//breadcrumb
+.p-breadcrumb {
+    width: 100%;
+    height: 45px;
+    background-color: #F7F7F7;
+}
+
+.p-breadcrumb__list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.p-breadcrumb__item:not(:last-of-type)::after {
+    content: ">";
+    max-width: ;
+}
