@@ -80,3 +80,15 @@
   font-weight: 600;
   margin: 39px 0 20px;
 }
+
+.p-sns-share__list {
+  display: flex;
+}
+
+.p-sns-share__list .p-sns-share__item {
+  margin-right: 6px;
+}
+
+.p-sns-share__list .p-sns-share__item:last-of-type {
+  margin-right: 0;
+}

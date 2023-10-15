@@ -81,11 +81,9 @@
 
 .p-sns-share__list {
     display: flex;
-    // align-items: center;
+    align-items: center;
     .p-sns-share__item {
         margin-right: 6px;
-        &:last-of-type {
-            margin-right: 0;
-        }
+        &:last-of-type
     }
 }
