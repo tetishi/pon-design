@@ -92,3 +92,49 @@
 .p-sns-share__list .p-sns-share__item:last-of-type {
   margin-right: 0;
 }
+
+.p-post__pager {
+  color: #391E88;
+  margin: 40.5px 0 110px;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.p-post__pager .p-post-pager {
+  letter-spacing: .05em;
+  line-height: 1.57;
+}
+
+.p-post-pager__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #B8AED5;
+  border-bottom: 1px solid #B8AED5;
+  height: 94px;
+}
+
+.p-post-pager__item--prev {
+  border-right: 1px solid #B8AED5;
+}
+
+.p-post-pager__item--prev .p-post-pager__link {
+  padding: 0 31.5px 0 36px;
+}
+
+.p-post-pager__item--next .p-post-pager__link {
+  padding: 0 31.5px 0 35px;
+}
+
+.p-post-pager__item {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  flex: 0 1 50%;
+}
+
+.p-post-pager__home {
+  letter-spacing: .08em;
+  text-align: center;
+  margin-top: 20.5px;
+}
