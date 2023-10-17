@@ -1,0 +1,33 @@
+//greeting
+.p-greeting {
+    background-image: url(../img/bg-circle.webp), url(../img/bg-face.webp);
+    // background-size: 100% auto;
+    background-position: center -17px, center 40px;
+    background-repeat: no-repeat;
+    padding-top: 94px;
+}
+
+.c-heading-secondary {
+    font-size: 3.2rem;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .05em;
+    color: #391E88;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.p-greeting__message {
+    text-align: center;
+
+    .p-message__heading {
+        margin-bottom: 37px;
+    }
+}
+
+.p-message__text {
+    letter-spacing: .05em;
+    font-weight: 300;
+    line-height: 1.666;
+    margin-bottom: 160px;
+}
