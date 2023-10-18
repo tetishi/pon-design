@@ -1,0 +1,87 @@
+//recruit-message
+.p-recruit-message__heading {
+    color: #391E88;
+    text-align: center;
+    .p-recruit-message__title {
+        font-size: 7.2rem;
+        font-weight: bold;
+        letter-spacing: .01em;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .p-recruit-message__subtitle {
+        font-size: 3.2rem;
+        letter-spacing: .05em;
+        font-weight: 300;
+    }
+}
+
+.p-recruit-message__body {
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .05em;
+    line-height: 1.75;
+    text-align: center;
+    margin-top: 38px;
+}
+
+
+//job-list
+.p-job-list {
+    padding-top: 70px;
+
+    .c-heading-secondary {
+        font-family: 'Hiragino Sans', sans-serif;
+    }
+}
+
+.p-job-list__detail {
+    border: 1px solid #B8AED5;
+    border-radius: 10px;
+    letter-spacing: .05em;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.p-job-list__name {
+    font-size: 2.4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 43px;
+}
+
+.p-job-list__table {
+    // margin: 0 auto;
+    .c-table01 {
+        border-collapse: collapse;
+        tr {
+            border-bottom: 1px solid #DDDDDD;
+        }
+        th {
+            font-weight: 600;
+            padding: 31.5px 0 30.5px 21px;
+            text-align: left;
+        }
+        td {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.8;
+            padding: 31.5px 0 30.5px;
+            ul {
+                list-style: disc;
+                // padding-left: 1em;
+                margin-left: 20px;
+                margin-top: 20px;
+            }
+        }
+        .first-table-title {
+            padding: 0 0 30.5px 21px;
+        }
+        .first-table-item {
+            padding: 0 0 ;
+        }
+        .last-table-title {
+            padding: 30.5px 0 147.5px 21px;
+        }
+    }
+}
