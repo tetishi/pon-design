@@ -1,0 +1,126 @@
+@media only screen and (max-width: 600px) {
+    //base_sp
+    .c-heading-primary {
+        font-size: 3rem;
+        letter-spacing: .05em;
+        text-align: center;
+    }
+
+    .l-inner {
+        padding: 0 20px;
+    }
+
+    .u-sp-only {
+        display: block;
+    }
+
+    //header_sp
+    .l-header {
+        padding: 0 20px;
+        height: 64px;
+        .c-btn-menu {
+            display: block;
+        }
+    }
+
+    .p-global-nav__list {
+
+    }
+
+    //hero_sp
+    .p-hero {
+        text-align: left;
+    }
+    .p-hero__title {
+        font-size: 4rem;
+        line-height: 1.1;
+    }
+
+    .p-hero__subtitle {
+        font-size: 1.6rem;
+        line-height: 1.8;
+        font-weight: 600;
+    }
+
+    .p-hero__link {
+        margin-top: 30px;
+
+    }
+
+
+    //news_sp
+    .p-news {
+        margin: 40px auto 80px;
+        .p-news__inner {
+            display: block;
+        }
+    }
+
+    .p-news__body {
+        margin-top: 32px;
+    }
+
+    .p-news-list__item {
+        display: block;
+        margin-bottom: 40px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        .p-news-list__label {
+            margin: 0 0 0 15px;
+
+            .c-label-category {
+                font-size: 1.1rem;
+                padding: 2px 0 1px;
+            }
+        }
+    }
+
+    .p-news-list__body {
+        font-size: 1.4rem;
+        margin-top: 10px;
+    }
+
+
+    //service_sp
+    .c-card-wrapper--col3 {
+        display: block;
+    }
+
+    .c-card {
+        margin-right: 0;
+    }
+
+    .c-card__title {
+        line-height: 1.2;
+        margin: 12px 0 9px;
+    }
+
+    .c-card__text {
+        font-size: 1.4rem;
+        line-height: 1.785;
+        margin-bottom: 40px;
+    }
+
+    .p-service__link {
+        margin-top: 0;
+    }
+
+    //works_sp
+    .p-works {
+        margin: 40px auto 0;
+        .p-works__inner {
+
+        }
+    }
+
+    //company_sp
+
+    .p-message__heading {
+        font-size: 3.2rem;
+        line-height: 1.5;
+        margin-bottom: 43px;
+    }
+
+    
+}

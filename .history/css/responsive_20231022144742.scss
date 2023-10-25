@@ -1,0 +1,36 @@
+@media only screen and (max-width: 600px) {
+    //base
+    .c-heading-primary {
+        font-size: 3rem;
+        letter-spacing: .05em;
+    }
+
+    .u-sp-only {
+        display: block;
+    }
+
+    //header
+    .l-header {
+        padding: 0 20px;
+        height: 64px;
+        .c-btn-menu {
+            display: block;
+        }
+    }
+
+    .p-global-nav__list {
+
+    }
+
+    //hero
+    .p-hero__title {
+        font-size: 4rem;
+        line-height: 1.1;
+    }
+
+    .p-hero__subtitle {
+        font-size: 1.6rem;
+        line-height: 1.8;
+    }
+}
+
