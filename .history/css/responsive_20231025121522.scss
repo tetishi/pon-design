@@ -10,15 +10,6 @@
         padding: 0 20px;
     }
 
-    .p-hero {
-        .c-heading-primary {
-            .c-heading-primary__sub {
-                font-family: 'Montserrat', sans-serif;
-                font-size: 1.3rem;
-            }
-        }
-    }    
-
     .u-sp-only {
         display: block;
     }
@@ -43,7 +34,7 @@
     //hero_sp
     .p-hero {
         text-align: left;
-        padding-left: 30px;
+        
     }
     .p-hero__title {
         font-size: 4rem;
@@ -213,7 +204,7 @@
     }
 
 
-    //page-top_sp
+    //page-top
     .c-page-top {
         right: 20px;
         bottom: 20px;
