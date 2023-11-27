@@ -1,0 +1,32 @@
+@media only screen and (max-width: 600px) {
+    //breadcrumb_sp
+    .p-breadcrumb__list {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        flex-wrap: nowrap;
+        span {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+
+    //article_sp
+    .article-wrapper__inner {
+        margin-top: 40px;
+    }
+
+    .p-post__title {
+        font-size: 2.2rem;
+        line-height: 1.5;
+    }
+
+    .p-post__info {
+        margin-top: 14px;
+
+        .c-label-category {
+            height: 23px;
+            font-size: 1.1rem;
+        }
+    }
+}

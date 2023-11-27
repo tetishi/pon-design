@@ -1,1 +1,1 @@
-@media only screen and (max-width: 600px){.p-hero{height:190px}.p-hero__inner{padding-top:25px}.p-breadcrumb{height:25px}.p-breadcrumb__list{font-size:1.1rem;padding:6px 0 5px}.p-news-list-wrapper{margin-top:40px;margin-bottom:80px}.p-news-list__item{margin-bottom:30px}}
+@media only screen and (max-width: 600px){.p-hero{height:190px}.p-hero__inner{padding-top:25px}.p-breadcrumb{height:25px;padding:0}.p-breadcrumb__list{font-size:1.1rem;padding:6px 0 5px}.p-news-list-wrapper{margin-top:40px;margin-bottom:80px;padding:0}.p-news-list__item{margin-bottom:30px}}

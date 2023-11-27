@@ -1,0 +1,49 @@
+@media only screen and (max-width: 600px) {
+    //breadcrumb_sp
+    .p-breadcrumb__list {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        flex-wrap: nowrap;
+    }
+
+    //article_sp
+    .article-wrapper__inner {
+        margin-top: 40px;
+    }
+
+    .p-post__title {
+        font-size: 2.2rem;
+        line-height: 1.5;
+    }
+
+    .p-post__info {
+        margin-top: 14px;
+
+        .c-label-category {
+            height: 23px;
+            font-size: 1.1rem;
+            line-height: 23px;
+        }
+    }
+
+    .p-post__body {
+        .p-post__text {
+            font-size: 1.4rem;
+            font-weight: 300;
+            line-height: 1.7;
+            letter-spacing: .05em;
+        }
+
+        .p-post__headline {
+            font-size: 1.8rem;
+            line-height: 1.1;
+            letter-spacing: .018em;
+            &::before {
+                height: 24px;
+            }
+        }
+
+        .p
+    }
+}
