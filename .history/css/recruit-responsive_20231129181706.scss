@@ -1,0 +1,102 @@
+@media only screen and (max-width: 600px) {
+    //hero_sp
+    .p-hero {
+        height: 190px;
+    }
+
+    .p-hero__inner {
+        padding-top: 25px;
+    }
+
+    //breadcrumb_sp
+    .p-breadcrumb {
+        height: 25px;
+        padding: 0;
+    }
+
+    .p-breadcrumb__list {
+        font-size: 1.1rem;
+        padding: 6px 0 5px;
+    }
+
+    //main_sp
+    .l-contents--page-recruit {
+        background-image: none;
+    }
+
+    //recruit-message_sp
+    .p-recruit-message {
+        padding-top: 40px;
+    }
+
+    .p-recruit-message__heading {
+        .p-recruit-message__title {
+            font-size: 4.8rem;
+            line-height: 1.16;
+        }
+
+        .p-recruit-message__subtitle {
+            font-size: 1.8rem;
+            margin-top: 15px;
+        }
+    }
+
+    .p-recruit-message__body {
+        font-size: 1.5rem;
+        line-height: 1.8;
+        margin-top: 25px;
+    }
+
+    .p-recruit-message__img-wrapper {
+        margin-top: 40px;
+    }
+
+    //job-list_sp
+    .p-job-list {
+        padding-top: 40px;
+
+        .c-heading-secondary {
+            font-size: 2.4rem;
+            margin-bottom: 30px;
+        }
+
+
+    }
+
+    .p-job-list__detail {
+
+    }
+
+    .p-job-list__name {
+        font-size: 1.6rem;
+        color: #391E88;
+        margin-top: 28px;
+        margin-bottom: 34px;
+    }
+
+    .p-job-list__table {
+        padding: 0 20px;
+
+        .c-table01 {
+            tr {
+                display: flex;
+                flex-direction: column;
+            }
+
+            th {
+                padding: 0;
+                width: 100%;
+            }
+            td {
+                padding: 9px 0 17.5px;
+            }
+            
+            .first-table-title {
+                padding: 0;
+            }
+            .first-table-item {
+                padding: 7px 0 13.5px;
+            }
+        }
+    }
+}

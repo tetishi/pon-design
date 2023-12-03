@@ -11,6 +11,8 @@
   height: 45px;
   background-color: #F7F7F7;
   padding: 0 20px;
+  position: sticky;
+  top: 64px;
 }
 
 .p-breadcrumb .l-inner {
@@ -21,13 +23,20 @@
 .p-breadcrumb__list {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
   list-style: none;
   text-transform: uppercase;
   font-size: 1.2rem;
   letter-spacing: .05em;
   font-family: 'Montserrat', sans-serif;
   padding: 15px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  flex-wrap: nowrap;
+}
+
+.p-breadcrumb__list .p-breadcrumb__item:last-of-type {
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .p-breadcrumb__item:not(:last-of-type)::after {

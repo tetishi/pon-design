@@ -1,3 +1,7 @@
+.l-inner {
+  padding: 0 15px;
+}
+
 .article-wrapper {
   max-width: 751px;
   margin: 0 auto;
@@ -44,6 +48,10 @@
 .p-post__body {
   letter-spacing: .05em;
   margin-bottom: 40px;
+}
+
+.p-post__body img {
+  width: 100%;
 }
 
 .p-post__body .p-post__text {

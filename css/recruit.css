@@ -43,6 +43,11 @@
   margin: 0 auto;
 }
 
+.p-recruit-message__img-wrapper .u-pc-only img {
+  margin-top: 37px;
+  clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+}
+
 .p-job-list {
   padding-top: 70px;
 }

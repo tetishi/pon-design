@@ -1,5 +1,6 @@
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -95,6 +96,10 @@ ul {
   line-height: 0;
 }
 
+.logo img {
+  width: 100%;
+}
+
 .p-global-nav__list {
   display: flex;
 }
@@ -106,6 +111,7 @@ ul {
   color: #fff;
   letter-spacing: .05em;
   font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
 }
 
 .p-global-nav__list .p-global-nav__item:last-of-type {
@@ -228,11 +234,12 @@ ul {
 .p-news .p-news__inner {
   display: flex;
   justify-content: space-between;
+  gap: 50px;
+  padding: 0 20px;
 }
 
 .p-news-list__item {
   display: flex;
-  align-items: center;
   margin-bottom: 15px;
 }
 
@@ -243,7 +250,6 @@ ul {
 .p-news-list__heading {
   font-family: 'Montserrat', sans-serif;
   display: flex;
-  align-items: center;
 }
 
 .p-news-list__heading .p-news-list__date {
@@ -254,6 +260,7 @@ ul {
 
 .p-news-list__heading .p-news-list__label {
   width: 82px;
+  height: 22px;
   background-color: #E8E8E8;
   border-radius: 50px;
   text-align: center;
@@ -282,6 +289,10 @@ ul {
   margin: 0 auto;
 }
 
+.p-service .p-service__inner {
+  padding: 0 20px;
+}
+
 .p-service .p-service__heading {
   text-align: center;
   margin-bottom: 30px;
@@ -293,10 +304,15 @@ ul {
 
 .c-card {
   margin-right: 30px;
+  width: calc(100% / 3 - 20px);
 }
 
 .c-card:last-of-type {
   margin-right: 0;
+}
+
+.c-card__img-wrapper img {
+  width: 100%;
 }
 
 .c-card__title {
@@ -330,7 +346,7 @@ ul {
   position: relative;
   display: flex;
   align-items: center;
-  padding: 60px 0px 81px;
+  padding: 60px 20px 81px 20px;
 }
 
 .p-works .p-works__inner::after {
@@ -358,14 +374,23 @@ ul {
 }
 
 .p-works__img-wrapper {
-  width: 66%;
-  margin-right: 20px;
+  max-width: 750px;
+  width: 60%;
+  margin-right: 70px;
 }
 
 .swiper-container {
   position: relative;
   z-index: 1;
   padding-bottom: 30px;
+}
+
+.swiper-slide img {
+  max-width: 100%;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: var(--swiper-pagination-bottom, 3px);
 }
 
 .swiper-pagination-bullets {
@@ -379,7 +404,7 @@ ul {
 .p-company {
   background-image: url(../img/bg-company.webp);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   max-width: 1300px;
   margin: 40px auto 70px;
@@ -428,8 +453,6 @@ ul {
 
 .p-recruit__inner {
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .p-recruit__desc {
@@ -457,6 +480,13 @@ ul {
   line-height: 1.866;
   font-weight: 300;
   margin-bottom: 30px;
+}
+
+.p-recruit__img-wrapper {
+  background-image: url(../img/education.webp);
+  background-position: center;
+  background-size: cover;
+  width: 60%;
 }
 
 .p-contact {

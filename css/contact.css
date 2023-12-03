@@ -34,10 +34,16 @@
   margin-left: 5px;
 }
 
+.c-form__radio input {
+  width: 18px;
+  height: 18px;
+}
+
 .c-form__radio label {
   font-size: 1.4rem;
   font-weight: 300;
   margin-right: 35px;
+  vertical-align: top;
 }
 
 .c-form__item {
@@ -49,7 +55,8 @@
 }
 
 .c-form__item .c-form__input, .c-form__item .c-form__select {
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
   height: 40px;
   background-color: #fff;
   border: 1px solid #AAAAAA;
@@ -57,7 +64,8 @@
 }
 
 .c-form__item .c-form__textarea {
-  width: 601px;
+  max-width: 601px;
+  width: 100%;
   height: 255px;
   background-color: #fff;
   border: 1px solid #AAAAAA;

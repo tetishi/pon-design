@@ -47,9 +47,6 @@
   .p-sns-share__list {
     flex-wrap: wrap;
   }
-  .p-sns-share__list .p-sns-share__item:nth-of-type(2) {
-    margin-right: 0;
-  }
   .p-post__pager {
     font-size: 1.2rem;
     margin: 40.5px 0 80px;

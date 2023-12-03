@@ -1,0 +1,153 @@
+//main
+.l-contents--page-recruit {
+    background-image: url(../img/bg-recruit.webp);
+    background-repeat: repeat;
+}
+
+//recruit-message
+.p-recruit-message {
+    padding-top: 116px;
+}
+
+.p-recruit-message__heading {
+    color: #391E88;
+    text-align: center;
+    .p-recruit-message__title {
+        font-size: 7.2rem;
+        font-weight: bold;
+        letter-spacing: .01em;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .p-recruit-message__subtitle {
+        font-size: 3.2rem;
+        letter-spacing: .05em;
+        font-weight: 300;
+    }
+}
+
+.p-recruit-message__body {
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .05em;
+    line-height: 1.75;
+    text-align: center;
+    margin-top: 38px;
+}
+
+.p-recruit-message__img-wrapper {
+    max-width: 1440px;
+    img {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .u-pc-only {
+        // margin-top: 37px;
+        img {
+            margin-top: 37px;
+
+            clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+        }
+    }
+}
+
+
+//job-list
+.p-job-list {
+    padding-top: 70px;
+
+    .c-heading-secondary {
+        font-family: 'Hiragino Sans', sans-serif;
+        margin-bottom: 40px;
+    }
+
+    .p-job-list__link {
+        margin-top: 50.5px;
+        margin-bottom: 3px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .c-btn {
+            font-size: 1.4rem;
+        }
+    }
+}
+
+.p-job-list__detail {
+    border: 1px solid #B8AED5;
+    background-color: #fff;
+    border-radius: 10px;
+    letter-spacing: .05em;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.p-job-list__name {
+    font-size: 2.4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 58px;
+    margin-bottom: 43px;
+}
+
+.p-job-list__table {
+    // margin: 0 auto;
+    padding: 0 95px;
+    .c-table01 {
+        width: 100%;
+        border-collapse: collapse;
+        tr {
+            border-bottom: 1px solid #DDDDDD;
+        }
+        th {
+            font-weight: 600;
+            padding: 31.5px 0 30.5px 21px;
+            text-align: left;
+            width: 20%;
+        }
+        td {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.8;
+            padding: 31.5px 0 30.5px;
+            ul {
+                list-style: disc;
+                // padding-left: 1em;
+                margin-left: 20px;
+                margin-top: 20px;
+            }
+        }
+        .first-table-title {
+            padding: 0 0 30.5px 21px;
+        }
+        .first-table-item {
+            padding: 0 0 27.5px 0;
+        }
+        .last-table-title {
+            padding: 30.5px 0 147.5px 21px;
+        }
+    }
+}
+
+.p-job-list__link-note {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0;
+    margin-bottom: 57px;
+}
+
+
+//company-video
+.p-company-video {
+    padding-top: 140px;
+    padding-bottom: 123px;
+    max-width: 1110px;
+    .c-heading-secondary {
+        font-family: 'Hiragino Sans', sans-serif;
+        margin-bottom: 40px;
+    }
+    iframe {
+        width: 100%;
+    }
+}

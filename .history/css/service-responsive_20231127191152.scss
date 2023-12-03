@@ -1,0 +1,23 @@
+@media only screen and (max-width: 600px) {
+    //hero_sp
+    .p-hero {
+        height: 190px;
+    }
+
+    .p-hero__inner {
+        padding-top: 25px;
+    }
+    
+    //breadcrumb_sp
+    .p-breadcrumb {
+        height: 25px;
+        padding: 0;
+    }
+
+    .p-breadcrumb__list {
+        font-size: 1.1rem;
+        padding: 6px 0 5px;
+    }
+    
+    //service
+}

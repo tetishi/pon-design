@@ -1,6 +1,6 @@
 .p-works-list-wrapper {
   max-width: 1110px;
-  margin: 70px auto 109px;
+  margin: 70px auto 94px;
 }
 
 .p-works-list-wrapper .c-card {
@@ -17,4 +17,5 @@
   text-align: center;
   font-size: 1.6rem;
   letter-spacing: .05em;
+  margin-bottom: 15px;
 }

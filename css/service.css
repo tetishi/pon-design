@@ -1,3 +1,7 @@
+.l-inner {
+  padding: 0 15px;
+}
+
 .p-service-list-wrapper {
   max-width: 1110px;
   margin: 70px auto 110px;
@@ -14,11 +18,17 @@
 
 .c-media__img-wrapper {
   margin-right: 50px;
+  flex: 0 1 40%;
+}
+
+.c-media__img-wrapper img {
+  width: 100%;
 }
 
 .c-media__body {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: .05em;
+  flex: 1;
 }
 
 .c-media__title {
