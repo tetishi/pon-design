@@ -1,0 +1,19 @@
+.p-works-list-wrapper {
+  max-width: 1110px;
+  margin: 70px auto 109px;
+}
+.p-works-list-wrapper .c-card {
+  width: 32%;
+  margin-right: 0;
+}
+
+.p-works-list {
+  flex-wrap: wrap;
+}
+.p-works-list .c-card__caption {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 1.6rem;
+  letter-spacing: 0.05em;
+  margin-bottom: 15px;
+}/*# sourceMappingURL=works_20231129150010.css.map */

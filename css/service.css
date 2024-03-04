@@ -11,7 +11,6 @@
   display: flex;
   margin-bottom: 60px;
 }
-
 .c-media:last-of-type {
   margin-bottom: 0;
 }
@@ -20,14 +19,13 @@
   margin-right: 50px;
   flex: 0 1 40%;
 }
-
 .c-media__img-wrapper img {
   width: 100%;
 }
 
 .c-media__body {
-  font-family: 'Montserrat', sans-serif;
-  letter-spacing: .05em;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.05em;
   flex: 1;
 }
 
@@ -40,4 +38,4 @@
 .c-media__text {
   font-size: 1.5rem;
   line-height: 1.8;
-}
+}/*# sourceMappingURL=service.css.map */

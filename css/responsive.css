@@ -3,7 +3,6 @@
     margin-right: 30px;
   }
 }
-
 @media only screen and (max-width: 775px) {
   .l-header {
     gap: 15px;
@@ -13,24 +12,22 @@
     font-size: 1.2rem;
   }
 }
-
 @media only screen and (max-width: 650px) {
   .p-message__heading {
     font-size: 3.5rem;
   }
 }
-
 @media only screen and (max-width: 600px) {
   .c-heading-primary {
     font-size: 3rem;
-    letter-spacing: .05em;
+    letter-spacing: 0.05em;
     text-align: center;
   }
   .l-inner {
     padding: 0 20px;
   }
   .p-hero .c-heading-primary .c-heading-primary__sub {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 1.3rem;
   }
   .u-sp-only {
@@ -56,7 +53,7 @@
   .c-btn-menu__line {
     width: 100%;
     height: 2px;
-    transition: all .4s;
+    transition: all 0.4s;
     background-color: #fff;
     position: relative;
     display: inline-block;
@@ -103,14 +100,14 @@
     height: 100%;
     background: linear-gradient(to right bottom, #642390, #19074A);
     text-transform: uppercase;
-    transition: .3s ease;
+    transition: 0.3s ease;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .p-global-nav.is-show {
     transform: translate(0);
-    transition: .3s ease;
+    transition: 0.3s ease;
     visibility: visible;
   }
   .p-global-nav__list {
@@ -120,10 +117,10 @@
   .p-global-nav__list .p-global-nav__item {
     font-size: 1.5rem;
     color: #FFF;
-    letter-spacing: .05em;
+    letter-spacing: 0.05em;
     line-height: 1;
     font-weight: bold;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     margin-bottom: 20px;
     margin-right: 0;
   }
@@ -137,6 +134,7 @@
   .p-hero__title {
     font-size: 4rem;
     line-height: 1.1;
+    margin-bottom: 20px;
   }
   .p-hero__subtitle {
     font-size: 1.6rem;
@@ -310,4 +308,4 @@
     right: 20px;
     bottom: 20px;
   }
-}
+}/*# sourceMappingURL=responsive.css.map */

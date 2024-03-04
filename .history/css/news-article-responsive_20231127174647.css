@@ -1,0 +1,22 @@
+@media only screen and (max-width: 600px) {
+  .p-breadcrumb__list {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    flex-wrap: nowrap;
+  }
+  .article-wrapper__inner {
+    margin-top: 40px;
+  }
+  .p-post__title {
+    font-size: 2.2rem;
+    line-height: 1.5;
+  }
+  .p-post__info {
+    margin-top: 14px;
+  }
+  .p-post__info .c-label-category {
+    height: 23px;
+    font-size: 1.1rem;
+  }
+}/*# sourceMappingURL=news-article-responsive_20231127174647.css.map */

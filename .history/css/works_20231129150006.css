@@ -1,0 +1,12 @@
+.p-works-list-wrapper {
+  max-width: 1110px;
+  margin: 70px auto 109px;
+}
+.p-works-list-wrapper .c-card {
+  width: 32%;
+  margin-right: 0;
+}
+
+.p-works-list {
+  flex-wrap: wrap;
+}/*# sourceMappingURL=works_20231129150006.css.map */

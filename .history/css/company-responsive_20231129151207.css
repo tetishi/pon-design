@@ -1,0 +1,16 @@
+@media only screen and (max-width: 600px) {
+  .p-hero {
+    height: 190px;
+  }
+  .p-hero__inner {
+    padding-top: 25px;
+  }
+  .p-breadcrumb {
+    height: 25px;
+    padding: 0;
+  }
+  .p-breadcrumb__list {
+    font-size: 1.1rem;
+    padding: 6px 0 5px;
+  }
+}/*# sourceMappingURL=company-responsive_20231129151207.css.map */

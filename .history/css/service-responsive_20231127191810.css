@@ -1,0 +1,32 @@
+@media only screen and (max-width: 600px) {
+  .p-hero {
+    height: 190px;
+  }
+  .p-hero__inner {
+    padding-top: 25px;
+  }
+  .p-breadcrumb {
+    height: 25px;
+    padding: 0;
+  }
+  .p-breadcrumb__list {
+    font-size: 1.1rem;
+    padding: 6px 0 5px;
+  }
+  .p-service-list-wrapper {
+    margin: 40px auto 80px;
+  }
+  .c-media {
+    flex-direction: column;
+    margin-bottom: 44px;
+  }
+  .c-media__img-wrapper {
+    margin-right: 0;
+  }
+  .c-media__title {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 14px;
+  }
+}/*# sourceMappingURL=service-responsive_20231127191810.css.map */

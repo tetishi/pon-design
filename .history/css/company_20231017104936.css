@@ -1,0 +1,22 @@
+.p-greeting {
+  background-image: url(../img/bg-company.webp);
+  background-position: center;
+}
+
+.c-heading-secondary {
+  font-size: 3.2rem;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.05em;
+  color: #391E88;
+  text-align: center;
+}
+
+.p-greeting__message {
+  text-align: center;
+}
+
+.p-message__text {
+  letter-spacing: 0.05em;
+  font-weight: 300;
+}/*# sourceMappingURL=company_20231017104936.css.map */

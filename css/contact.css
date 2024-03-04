@@ -5,7 +5,7 @@
 .p-contact-form__lead {
   font-size: 1.6rem;
   font-weight: 300;
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
   line-height: 2;
   text-align: center;
   margin: 70px 0 40px;
@@ -15,7 +15,7 @@
   max-width: 1110px;
   margin: 0 auto;
   background-color: #F7F7F7;
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
   padding: 90px;
 }
 
@@ -26,7 +26,6 @@
   display: block;
   margin-bottom: 5px;
 }
-
 .c-form__title .c-form__require {
   font-size: 1.2rem;
   line-height: 2.25;
@@ -38,7 +37,6 @@
   width: 18px;
   height: 18px;
 }
-
 .c-form__radio label {
   font-size: 1.4rem;
   font-weight: 300;
@@ -49,11 +47,9 @@
 .c-form__item {
   margin-top: 25px;
 }
-
 .c-form__item:first-child {
   margin-top: 0;
 }
-
 .c-form__item .c-form__input, .c-form__item .c-form__select {
   max-width: 300px;
   width: 100%;
@@ -62,7 +58,6 @@
   border: 1px solid #AAAAAA;
   border-radius: 6px;
 }
-
 .c-form__item .c-form__textarea {
   max-width: 601px;
   width: 100%;
@@ -71,7 +66,6 @@
   border: 1px solid #AAAAAA;
   border-radius: 6px;
 }
-
 .c-form__item .c-form__note {
   font-size: 1.2rem;
   font-weight: 300;
@@ -81,14 +75,12 @@
 .c-form input[type=tel] {
   width: 200px;
 }
-
 .c-form .c-form__btn {
   text-align: center;
   margin-top: 50px;
 }
-
 .c-form select {
   font-size: 1.4rem;
   font-weight: 300;
   padding-left: 18px;
-}
+}/*# sourceMappingURL=contact.css.map */

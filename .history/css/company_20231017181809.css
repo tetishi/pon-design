@@ -1,0 +1,53 @@
+.p-greeting {
+  background-image: url(../img/bg-circle.webp), url(../img/bg-face.webp);
+  background-position: center -17px, center 35px;
+  background-repeat: no-repeat;
+  padding-top: 94px;
+}
+
+.c-heading-secondary {
+  font-size: 3.2rem;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.05em;
+  color: #391E88;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.p-greeting__message {
+  text-align: center;
+}
+.p-greeting__message .p-message__heading {
+  margin-bottom: 37px;
+}
+
+.p-message__text {
+  letter-spacing: 0.05em;
+  font-weight: 300;
+  line-height: 1.666;
+  margin-bottom: 160px;
+}
+
+.c-media {
+  justify-content: center;
+}
+
+.c-media__body {
+  max-width: 605px;
+}
+
+.c-media__text {
+  letter-spacing: 0.05em;
+  line-height: 1.666;
+  font-weight: 300;
+}
+
+.p-company-info {
+  margin: 134px auto 110px;
+  max-width: 1110.5px;
+}
+
+.p-company-info__table tr {
+  border-bottom: 1px solid #DDDDDD;
+}/*# sourceMappingURL=company_20231017181809.css.map */

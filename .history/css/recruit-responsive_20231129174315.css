@@ -1,0 +1,26 @@
+@media only screen and (max-width: 600px) {
+  .p-hero {
+    height: 190px;
+  }
+  .p-hero__inner {
+    padding-top: 25px;
+  }
+  .p-breadcrumb {
+    height: 25px;
+    padding: 0;
+  }
+  .p-breadcrumb__list {
+    font-size: 1.1rem;
+    padding: 6px 0 5px;
+  }
+  .l-contents--page-recruit {
+    background-image: none;
+  }
+  .p-recruit-message {
+    padding-top: 40px;
+  }
+  .p-recruit-message__heading .p-recruit-message__title {
+    font-size: 4.8rem;
+    line-height: 1.16;
+  }
+}/*# sourceMappingURL=recruit-responsive_20231129174315.css.map */

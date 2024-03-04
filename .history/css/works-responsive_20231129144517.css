@@ -1,0 +1,8 @@
+@media only screen and (max-width: 600px) {
+  .p-hero {
+    height: 190px;
+  }
+  .p-hero__inner {
+    padding-top: 25px;
+  }
+}/*# sourceMappingURL=works-responsive_20231129144517.css.map */

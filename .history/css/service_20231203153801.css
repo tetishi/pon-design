@@ -1,0 +1,37 @@
+.p-service-list-wrapper {
+  max-width: 1110px;
+  margin: 70px auto 110px;
+}
+
+.c-media {
+  display: flex;
+  margin-bottom: 60px;
+}
+.c-media:last-of-type {
+  margin-bottom: 0;
+}
+
+.c-media__img-wrapper {
+  margin-right: 50px;
+  flex: 0 1 40%;
+}
+.c-media__img-wrapper img {
+  width: 100%;
+}
+
+.c-media__body {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.05em;
+  flex: 1;
+}
+
+.c-media__title {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+
+.c-media__text {
+  font-size: 1.5rem;
+  line-height: 1.8;
+}/*# sourceMappingURL=service_20231203153801.css.map */

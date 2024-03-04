@@ -1,0 +1,11 @@
+@media only screen and (max-width: 600px) {
+  .p-hero {
+    height: 190px;
+  }
+  .p-breadcrumb {
+    height: 25px;
+  }
+  .p-breadcrumb__list {
+    font-size: 1.1rem;
+  }
+}/*# sourceMappingURL=news-responsive_20231025135140.css.map */
